@@ -135,7 +135,7 @@ To do this, we can add an additional virtual swap to every user swap. This virtu
 
 <img style="display: block; max-width: 500px; margin: 0 auto" src='./assets/ValueOfTokenDecreasesVirtualSwap.png' />
 
-As a consequence, however, it means less of the yield can be arbitraged:
+You can see how after multiple swaps the liquidator's prize token price begins to stabilize at the market price:
 
 <img style="display: block; max-width: 500px; margin: 0 auto" src='./assets/VirtualSwapLostPortion.png' />
 
