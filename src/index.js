@@ -258,7 +258,7 @@ async function run() {
                 `swapExchangeRate ${swapExchangeRate}`,
                 `remainingYield ${accruedYield}`
             ]
-            console.log(chalk.green(details.join('\n\t')))
+            // console.log(chalk.green(details.join('\n\t')))
         }
     }
 
