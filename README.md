@@ -184,7 +184,7 @@ The market rates of the prize token also change significantly. In fact there are
 Let's analyze the liquidator prize token price vs the market price of the prize token. When we run the liquidator simulation like so:
 
 ```
-./src/index.js -a 1 -l 0.03 -o test.csv -s 0.3
+./src/index.js -a 1 -l 0.03 -o results.csv -s 0.3
 ```
 
 We can chart the output and see how well the liquidator tracks the market exchange rate:
