@@ -115,7 +115,7 @@ When the exchange rate on the liquidator matches the market the user will arbitr
 
 In this scenario the market is trading the prize tokens at a higher price than the liquidator. Remember our earlier observation: a rational user will only capture the above market rate for tokens. Users will only arbitrage up until the market rate:
 
-<img style="display: block; max-width: 500px; margin: 0 auto" src='./ValueOfTokenRises.png' />
+<img style="display: block; max-width: 500px; margin: 0 auto" src='./assets/ValueOfTokenRises.png' />
 
 ## Market Price is Lower
 
