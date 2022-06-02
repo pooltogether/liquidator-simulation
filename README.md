@@ -147,7 +147,7 @@ The size of the virtual liquidity determines the efficiency of trades in either 
 
 If the virtual liquidity is small relative to the yield then:
 
-- Yield accrual will have a larger affect on the exchange rate: price goes up faster
+- Yield accrual will have a larger effect on the exchange rate: price goes up faster
 - More slippage is incurred from arbitrage: price goes down faster
 
 If the virtual liquidity is large, then the opposite is true.
