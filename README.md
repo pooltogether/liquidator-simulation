@@ -170,6 +170,17 @@ The `liquidityFraction` determines the yield's size relative to the virtual liqu
 
 # Analysis
 
+The simulation runs for 1000 units of time. The simulation changes the accrual rate of yield tokens over four different orders of magnitude:
+
+```
+Time 0 - 99 it accrues 10 per time unit
+Time 100 - 399 it accrues 100 per time unit
+Time 400 - 799 it accrues 1000 per time unit
+Time 800+ it accrues 10000 per time unit
+```
+
+The market rates of the prize token also change significantly. In fact there are several points where the prize token value tanks ~30%. It's not terribly realistic but it is very illustrative.
+
 Let's analyze the liquidator prize token price vs the market price of the prize token. When we run the liquidator simulation like so:
 
 ```
@@ -184,6 +195,7 @@ Notice how:
 
 - When the market price rises, the liquidator easily tracks it.
 - When the market price drops, the liquidator price descends linearly.
+- The liquidator price is always slightly higher than the market price: this is the arbitrage opportunity.
 
 # Summary
 
