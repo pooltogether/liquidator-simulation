@@ -80,10 +80,6 @@ function swap(yieldAmountOut, accruedYield, cpmm) {
     const poolVirtualReserve = cpmm.poolVirtualReserve + poolAmountIn
     // dim(`swap k: ${parseInt(poolVirtualReserve * yieldVirtualReserve)}`)
 
-    const remainingYield = accruedYield - yieldAmountOut
-    const purchasePortion = yieldAmountOut / accruedYield
-    // dim(`\t\t\tremaining ${remainingYield}, ${accruedYield}, ${yieldAmountOut}, purchasePortion: ${purchasePortion}`)
-
     // Apply downward pressure to drive price down.
     const swapMultiplier = parseFloat(options.swapMultiplier)
     const additionalDownwardPressureYieldOut = yieldAmountOut*swapMultiplier
