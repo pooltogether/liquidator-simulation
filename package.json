@@ -1,0 +1,13 @@
+{
+  "name": "liquidator-simulation",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Brendan Asselstine",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.1",
+    "commander": "^9.3.0",
+    "csv-stringify": "^6.1.0",
+    "debug": "^4.3.4"
+  }
+}
