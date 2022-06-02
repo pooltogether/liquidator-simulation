@@ -5,7 +5,7 @@ const { Command } = require('commander')
 const program = new Command()
 const fs = require("fs");
 
-program.name('liquidator simulation')
+program.name('lsim')
     .description('simulates the PoolTogether liquidation algorithm')
 
 program
@@ -137,8 +137,11 @@ async function run() {
 
     let marketRates = {
         0: 10,
+        25: 11,
         50: 12,
+        65: 13,
         80: 14,
+        90: 15,
         100: 16,
         140: 18,
         150: 20,
