@@ -39,7 +39,7 @@ A secondary goal is to on-board new assets rapidly, so we need the ability to li
 - The code should not rely on external protocols. We need to move quickly to new chains
 - The code should be autonomous, as we won't be able to manually track hundreds of assets.
 
-We've developed a liquidation algorithm that meets all of the requirements above, and the details of which will follow in a separate post.
+Algorithm follows!
 
 ## Swaps
 
